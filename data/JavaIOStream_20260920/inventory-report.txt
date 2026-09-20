@@ -1,0 +1,3 @@
+Số sản phẩm: 2
+Tổng giá trị tồn kho: 4.900.000 VND
+Sản phẩm giá trị tồn kho cao nhất: SP01 - ban phim co: 3.500.000 VND
