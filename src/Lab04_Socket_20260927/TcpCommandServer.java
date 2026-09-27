@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 import java.util.Locale;
 
 public class TcpCommandServer {
-    private static final int PORT = 5000;
+    private static final int PORT = 5050;
 
     public static void main(String[] args) {
         try (ServerSocket server = new ServerSocket(PORT)) {

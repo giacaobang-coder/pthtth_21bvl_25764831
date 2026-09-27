@@ -11,7 +11,7 @@ import java.nio.charset.StandardCharsets;
 public class TcpCommandClient {
     public static void main(String[] args) {
         String host = args.length > 0 ? args[0] : "localhost";
-        int port = args.length > 1 ? Integer.parseInt(args[1]) : 5000;
+        int port = args.length > 1 ? Integer.parseInt(args[1]) : 5050;
 
         try (Socket socket = new Socket(host, port);
              BufferedReader console = new BufferedReader(
