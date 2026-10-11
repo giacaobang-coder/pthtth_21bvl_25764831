@@ -48,7 +48,7 @@ public class DigitToWordServer {
     }
 
     static String process(String request) {
-        if (request.length() != 1 || !Character.isDigit(request.charAt(0))) {
+        if (request.length() != 1 || request.charAt(0) < '0' || request.charAt(0) > '9') {
             return "ERR INVALID_DIGIT";
         }
         int digit = request.charAt(0) - '0';
